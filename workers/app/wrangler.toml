@@ -1,0 +1,7 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "app"
+main = "src/index.ts"
+compatibility_date = "2024-06-10"
+compatibility_flags = ["nodejs_compat"]
+
+services = [{ binding = "CALC", service = "calc" }]
